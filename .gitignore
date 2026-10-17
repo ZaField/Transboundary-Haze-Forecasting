@@ -1,0 +1,24 @@
+# Ignore all csv that generate from code
+clean_daily_weather_marina_barrage.csv
+clean_hourly_marine_terrace.csv
+features_all.csv
+test_results_final.csv
+tuning_summary.csv
+
+# Ignore tuning-best.json
+tuning_best_params.json
+
+# Also ignore common OS and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+__pycache__
+*.pyc
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
